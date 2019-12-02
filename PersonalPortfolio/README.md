@@ -2,8 +2,6 @@
 
 ## Fitur-fitur yang sudah tersedia:
 
-✅ Navigation Menu - Menu hamburger untuk mobile
-
 ✅ Hero Section - Tampilan menarik di halaman utama
 
 ✅ About Section - Profil dan statistik kinerja
@@ -20,6 +18,12 @@
 
 ✅ Responsive Design - Sempurna di mobile, tablet, dan desktop
 
-✅ Mobile Menu - Toggle menu untuk perangkat mobile
+✅ Navbar tetap di bawah layar (sticky/fixed)
 
-✅ Smooth Animations - Efek animasi saat scroll
+✅ 5 menu item dengan icon dan label
+
+✅ Label hilang di layar kecil untuk ruang lebih
+
+✅ Active state otomatis berdasarkan scroll position
+
+✅ Smooth Animations - Efek animasi saat scroll dan hover
