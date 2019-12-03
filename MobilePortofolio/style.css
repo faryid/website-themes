@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    padding: 60px;
+    background: #f4f4f4;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    padding: 12px 24px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
