@@ -37,7 +37,7 @@
     </div>
 
     <!-- PROJECT INFO -->
-    <div>
+    <div class="mb-5">
       <h2 class="text-xl font-semibold text-gray-900">
         Project name
       </h2>
@@ -49,18 +49,56 @@
       </p>
     </div>
 
+    <!-- PREVIEW CAROUSEL -->
+    <div
+      class="flex gap-4 mb-5 overflow-x-auto snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none]"
+    >
+      <!-- hide scrollbar (webkit) -->
+      <style>
+        div::-webkit-scrollbar { display: none; }
+      </style>
+
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+    </div>
+
+    <div class="carousel flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth mb-5">
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+    </div>
+
+    <div id="carousel" class="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth mb-5 [&::-webkit-scrollbar]:hidden [scrollbar-width:none] [-ms-overflow-style:none]">
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+      <div class="min-w-[160px] h-[240px] bg-gray-200 rounded-[20px] snap-center"></div>
+    </div>
+
     <!-- BOTTOM NAV -->
     <div class="absolute left-4 right-4 bottom-4">
       <div class="bg-[#f4f5f7] rounded-full px-3 py-2 flex justify-between items-center">
-        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">🏠</button>
-        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">👤</button>
-        <button class="w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center">⬛</button>
-        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">💬</button>
-        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">⋯</button>
+        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
+          🏠
+        </button>
+        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
+          👤
+        </button>
+        <button class="w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center">
+          ⬛
+        </button>
+        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
+          💬
+        </button>
+        <button class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
+          ⋯
+        </button>
       </div>
     </div>
 
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
