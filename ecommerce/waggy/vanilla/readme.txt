@@ -41,8 +41,8 @@ https://getbootstrap.com/
 
 Stock Photos
 https://unsplash.com/
-https://www.freepik.com/
 https://www.pexels.com/
+https://www.freepik.com/
 
 Fonts
 Google fonts
