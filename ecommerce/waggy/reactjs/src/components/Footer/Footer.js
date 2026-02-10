@@ -18,28 +18,28 @@ const Footer = () => {
                 <div className='social-links'>
                   <ul className='d-flex list-unstyled gap-2'>
                     <li className='social'>
-                      <a href='https://www.facebook.com' className='social-icon'>
-                        <Icon icon='ri:facebook-fill' className='font-icon' />
+                      <a href='https://www.facebook.com'>
+                        <Icon icon='ri:facebook-fill' className='social-icon' />
                       </a>
                     </li>
                     <li className='social'>
-                      <a href='https://www.twitter.com' className='social-icon'>
-                        <Icon icon='ri:twitter-fill' className='font-icon' />
+                      <a href='https://www.twitter.com'>
+                        <Icon icon='ri:twitter-fill' className='social-icon' />
                       </a>
                     </li>
                     <li className='social'>
-                      <a href='https://www.pinterest.com' className='social-icon'>
-                        <Icon icon='ri:pinterest-fill' className='font-icon' />
+                      <a href='https://www.pinterest.com'>
+                        <Icon icon='ri:pinterest-fill' className='social-icon' />
                       </a>
                     </li>
                     <li className='social'>
-                      <a href='https://www.instagram.com' className='social-icon'>
-                        <Icon icon='ri:instagram-fill' className='font-icon' />
+                      <a href='https://www.instagram.com'>
+                        <Icon icon='ri:instagram-fill' className='social-icon' />
                       </a>
                     </li>
                     <li className='social'>
-                      <a href='https://www.youtube.com' className='social-icon'>
-                        <Icon icon='ri:youtube-fill' className='font-icon' />
+                      <a href='https://www.youtube.com'>
+                        <Icon icon='ri:youtube-fill' className='social-icon' />
                       </a>
                     </li>
                   </ul>
@@ -90,9 +90,7 @@ const Footer = () => {
                       className='form-control border-0 bg-transparent'
                       placeholder='Enter your email here'
                     />
-                    <span className='send-icon'>
-                      <Icon icon='tabler:location-filled' className='font-icon' />
-                    </span>
+                    <Icon icon='tabler:location-filled' className='send-icon' />
                   </form>
                 </div>
               </div>
